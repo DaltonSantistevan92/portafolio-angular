@@ -47,6 +47,7 @@ export class ProductosService {
       this.filtrarProducto(termino);
     } 
   }
+  
   private filtrarProducto(termino:string){
     //console.log(this.productos);
     this.productosFiltrado = [];
